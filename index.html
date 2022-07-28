@@ -76,15 +76,15 @@
         <!-- nav end -->
 
         <!-- carousel section started -->
-        <section class="container">
+        <section class="container ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active offset">
-                        <img class="img-fluid" src="images/cover/cover-1.png">
+                        <img class="w-100" src="images/cover/cover-1.png">
 
                     </div>
                 </div>
-                <div class="carousel-caption position-absolute top-50 start-45">
+                <div class="carousel-caption">
                     <h1 class="fs-1 fw-bold">Get Started Digital
                         Learning</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable</p>
@@ -424,7 +424,7 @@
                                 <img src="images/student/student-5.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h2 class="fs-5">Abul Bhai</h2>
+                                <h2 class="fs-5">Noman Mahib</h2>
                                 <p class="fs-6 text-muted">UI Designer</p>
                             </div>
                         </div>
@@ -492,21 +492,94 @@
         <!-- Accordion section started  -->
 
         <section class="container">
-            <h1 class="text-center">ACCORDION PANDING</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ex. Blanditiis et voluptas nostrum! Atque
-                quia
-                magnam sed nesciunt distinctio voluptatibus quas cupiditate, iure est assumenda reprehenderit. Culpa,
-                dolorem
-                cupiditate perferendis reiciendis placeat nostrum minus animi quae numquam inventore est eligendi
-                ratione quo,
-                molestiae quisquam labore nihil laborum fugit doloribus ipsa saepe quidem et! Eveniet alias repudiandae
-                vero
-                dignissimos, eius tenetur debitis repellat maxime velit ea odit omnis quisquam quo incidunt obcaecati
-                quae
-                dolores animi in autem molestias perferendis, porro doloribus ab? Et quod cupiditate, voluptatem
-                sapiente
-                consequatur doloribus consequuntur iusto necessitatibus beatae possimus enim modi. Animi necessitatibus
-                id fuga?</p>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fs-1 fw-bold">Frequently Asked Questions About CSS.</h1>
+                <p class="text-muted">CSS is used to define styles for your web pages, including the design, layout and
+                    variations in
+                </p>
+                <p class="text-muted">display for different devices and screen sizes.</p>
+            </div>
+
+            <!-- Accordin  -->
+            <section class="my-3">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!-- accordion one  -->
+                    <div class="accordion-item border border-1">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <P class="fs-5 fw-semibold">What are the difference between flexbox and grid?</P>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Uaually the flexbox model are giving us a one dimensional layoy.
+                                it works in a very simplw way to align the layout ans distribute space among items in
+                                the container.<br>
+                                The main difference between flex and grid. flexbox is the one dimensional layout on the
+                                other hand grid is two dimensional layout.at the same time work with rows and
+                                columns.yeah that's it about flexbox and grid</div>
+                        </div>
+                    </div>
+                    <!-- accordion two  -->
+
+                    <div class="accordion-item border border-1">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <P class="fs-5 fw-semibold">Difference between bootstrap and tailwind.</P>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive,
+                                mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of
+                                utility classes to create a neat UI with more flexibility and uniqueness. Sites created
+                                using Bootstrap follow the generic pattern that makes them look identica</div>
+                        </div>
+                    </div>
+                    <!-- accordion three  -->
+
+                    <div class="accordion-item border border-1">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <P class="fs-5 fw-semibold">Let's know what is the CSS box model?</P>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">In web development, the CSS box model refers to how HTML
+                                elements are modeled in browser engines and how the dimensions of those HTML elements
+                                are derived from CSS properties. It is a fundamental concept for the composition of HTML
+                                webpages</div>
+                        </div>
+                    </div>
+                    <!-- accordion four  -->
+
+                    <div class="accordion-item border border-1">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <P class="fs-5 fw-semibold">What is semantic tags?</P>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Semantic tags are huaman readable and machine readable with
+                                meaningful.
+                                there are a few more semantics tags such as Header,Nav,Main,,Section,
+                                Article,Aside,Footer,etc
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </section>
         <!-- Accordion section end -->
 
@@ -540,6 +613,14 @@
         <!-- Company section end -->
     </main>
 
+    <footer class="w-100 bg-dark " style="height: 400px;">
+        <div class="text-white d-flex justify-content-center align-items-center flex-column h-100">
+            <h1 class="m-3">COURSE HOUSE</h1>
+            <p>Dhaka Faridpur,Nagarkanda</p>
+            <p>Al Noman Mahib</p>
+            <p>Privacy Policy | Terms of use</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
